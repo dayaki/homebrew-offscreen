@@ -14,7 +14,7 @@ cask "offscreen" do
   end
 
   depends_on arch: :arm64
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Offscreen.app"
 
