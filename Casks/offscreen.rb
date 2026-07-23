@@ -1,6 +1,6 @@
 cask "offscreen" do
-  version "1.0.0"
-  sha256 "b4bf4608823453e51d95daff978ab0cc8fc2fb3a7c81e47c230d3a639e2ef24a"
+  version "1.0.1"
+  sha256 "9a11d58ec78edf8f5eed540bb59fca81ace6c56c565882d988dd5d7058dcea2c"
 
   url "https://github.com/dayaki/offscreen/releases/download/v#{version}/Offscreen-#{version}.zip",
       verified: "github.com/dayaki/offscreen/"
