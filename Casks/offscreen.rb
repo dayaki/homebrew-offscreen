@@ -1,6 +1,6 @@
 cask "offscreen" do
   version "1.0.0"
-  sha256 "40558cdbf2ef55cb1d4dafe0b9cbf97fc9265df29b4305a9b220f0f3decf4120"
+  sha256 "b4bf4608823453e51d95daff978ab0cc8fc2fb3a7c81e47c230d3a639e2ef24a"
 
   url "https://github.com/dayaki/offscreen/releases/download/v#{version}/Offscreen-#{version}.zip",
       verified: "github.com/dayaki/offscreen/"
@@ -14,7 +14,7 @@ cask "offscreen" do
   end
 
   depends_on arch: :arm64
-  depends_on macos: :tahoe
+  depends_on macos: ">= :sequoia"
 
   app "Offscreen.app"
 
